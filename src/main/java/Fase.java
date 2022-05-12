@@ -1,11 +1,15 @@
 public class Fase implements Nivel{
     private String nome;
 
-    public String getNome() {
-        return nome;
+    public Fase(String nome){
+        this.nome = nome;
     }
 
-    public Integer getQuantidade() {
-        return null;
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return this.nome;
     }
 }
